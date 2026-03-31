@@ -20,7 +20,7 @@ export default function Header() {
       {/* Nav Links */}
       <NavLinks />
       {/* Sign In & Register Btns */}
-      <HeaderBtns />
+      <HeaderBtns className="w-fit hidden lg:flex gap-3 items-center" />
     </header>
   );
 }

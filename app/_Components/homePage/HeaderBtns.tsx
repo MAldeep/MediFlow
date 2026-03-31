@@ -1,10 +1,11 @@
-import React from "react";
 import { btns } from "./Btns";
 import Link from "next/link";
-
-export default function HeaderBtns() {
+interface HeaderBtnsProps {
+  className: string;
+}
+export default function HeaderBtns({ className }: HeaderBtnsProps) {
   return (
-    <div className="w-fit hidden lg:flex gap-3 items-center">
+    <div className={className}>
       {btns.map((el, idx) => (
         <Link
           key={idx}

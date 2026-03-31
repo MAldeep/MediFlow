@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap/all";
 import { useRef } from "react";
+import HeaderBtns from "./HeaderBtns";
 
 interface SideMenuProps {
   setIsOpen: (value: boolean) => void;
@@ -72,6 +73,7 @@ export default function SideMenu({ setIsOpen }: SideMenuProps) {
             {el.text}
           </Link>
         ))}
+        <HeaderBtns className="w-fit flex flex-col gap-3 items-center" />
       </div>
     </div>
   );
