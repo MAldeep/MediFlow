@@ -9,7 +9,7 @@ export default function HeaderBtns({ className }: HeaderBtnsProps) {
       {btns.map((el, idx) => (
         <Link
           key={idx}
-          className="bg-[#0EA5E9] rounded-md px-3 py-2.5 hover:bg-blue-950 duration-200 text-[18px]"
+          className="bg-[#0EA5E9] text-white rounded-md px-3 py-2.5 hover:bg-blue-950 duration-200 text-[18px]"
           href={el.href}
         >
           {el.text}
