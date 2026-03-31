@@ -62,7 +62,7 @@ export default function SideMenu({ setIsOpen }: SideMenuProps) {
         `}
       ref={menuRef}
     >
-      <IoMdClose onClick={handleClose} className="text-3xl mt-8" />
+      <IoMdClose onClick={handleClose} className="text-3xl mt-8 text-white" />
       <div className="w-full h-full flex flex-col justify-center gap-6 items-center">
         {links.map((el, idx) => (
           <Link

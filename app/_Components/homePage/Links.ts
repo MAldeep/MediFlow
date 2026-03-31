@@ -7,12 +7,12 @@ export const links: {
     text: "Home",
   },
   {
-    href: "/about",
-    text: "About",
+    href: "/features",
+    text: "Features",
   },
   {
-    href: "/services",
-    text: "Services",
+    href: "/about",
+    text: "About",
   },
   {
     href: "/plans",

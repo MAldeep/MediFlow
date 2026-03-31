@@ -8,7 +8,7 @@ import HeaderBtns from "./HeaderBtns";
 export default function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="w-full relative flex justify-between items-center px-4 lg:px-20 py-4 bg-white border border-b-[#E2E8F0]">
+    <header className="w-full relative flex justify-between items-center px-4 lg:px-20 py-4 bg-white border-b border-b-[#E2E8F0]">
       {/* Logo */}
       <MediFlowLogo />
       {/* Burger Menu */}
