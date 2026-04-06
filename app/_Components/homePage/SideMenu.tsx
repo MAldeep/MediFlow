@@ -58,7 +58,7 @@ export default function SideMenu({ setIsOpen }: SideMenuProps) {
     <div
       className={`w-full h-screen bg-[#0F172A] flex flex-col
           px-4
-          absolute top-0 left-0
+          absolute top-0 left-0 z-50
         `}
       ref={menuRef}
     >

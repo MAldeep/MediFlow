@@ -5,12 +5,15 @@ import { useState } from "react";
 import SideMenu from "./SideMenu";
 import MediFlowLogo from "./MediFlowLogo";
 import HeaderBtns from "./HeaderBtns";
+import Link from "next/link";
 export default function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="w-full relative flex justify-between items-center px-4 lg:px-20 py-4 bg-white border-b border-b-[#E2E8F0]">
+    <header className="w-full relative top-0 flex justify-between items-center px-4 lg:px-20 py-4 bg-white border-b border-b-[#E2E8F0]">
       {/* Logo */}
-      <MediFlowLogo />
+      <Link href="/">
+        <MediFlowLogo />
+      </Link>
       {/* Burger Menu */}
       <CiMenuBurger
         className="flex lg:hidden text-[#0F172A] text-2xl"

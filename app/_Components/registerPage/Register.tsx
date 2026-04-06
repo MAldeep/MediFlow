@@ -13,9 +13,7 @@ export default function Register() {
   const {
     register,
     handleSubmit,
-    getFieldState,
-    trigger,
-    formState: { isValid, isSubmitting, errors },
+    formState: { errors },
   } = useForm<registerType>({
     mode: "onBlur",
     resolver: zodResolver(registerSchema),
