@@ -12,8 +12,8 @@ export default function HeaderBtns({ className }: HeaderBtnsProps) {
           className={`${
             el.href === "/register"
               ? "bg-blue-950 text-white hover:bg-blue-900 duration-200"
-              : "bg-transparent text-gray-500 hover:bg-blue-100 duration-200"
-          } rounded-md px-3.5 py-2 text-[18px]`}
+              : "bg-transparent text-gray-500 hover:bg-blue-100 hover:text-gray-700 duration-200"
+          } rounded-md px-3.5 py-2 text-[18px] transition-all`}
           href={el.href}
         >
           {el.text}

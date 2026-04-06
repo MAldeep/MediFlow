@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="w-full relative top-0 flex justify-between items-center px-4 lg:px-20 py-4 bg-white border-b border-b-[#E2E8F0]">
+    <header className="w-full relative top-0 flex justify-between items-center px-4 lg:px-20 py-4 bg-blue-50 border-b border-b-[#e2e3f0] shadow-md">
       {/* Logo */}
       <Link href="/">
         <MediFlowLogo />
