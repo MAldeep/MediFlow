@@ -1,3 +1,4 @@
+import About from "./_Components/homePage/About";
 import Footer from "./_Components/homePage/Footer";
 import Header from "./_Components/homePage/Header";
 import Hero from "./_Components/homePage/Hero";
@@ -10,6 +11,7 @@ export default function Home() {
       {/* Hero Section */}
       <Hero />
       {/* About Section */}
+      <About />
       {/* Footer */}
       <Footer />
     </div>

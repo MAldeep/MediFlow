@@ -25,7 +25,7 @@ export default function Footer() {
     },
   ];
   return (
-    <footer className="w-full h-[30dvh] flex flex-col lg:flex-row items-center justify-between bg-linear-to-b from-blue-100 to-blue-50  border-t-2 border-t-gray-300 px-0 lg:px-12 py-2">
+    <footer className="w-full h-[30dvh] flex flex-col lg:flex-row items-center justify-between bg-linear-to-b from-blue-100 to-blue-50  border-t-2 border-t-gray-200 px-0 lg:px-12 py-2">
       {/* Left Side */}
       <div className="flex flex-col gap-5">
         <MediFlowLogo />
