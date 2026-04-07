@@ -1,3 +1,4 @@
+import Footer from "./_Components/homePage/Footer";
 import Header from "./_Components/homePage/Header";
 import Hero from "./_Components/homePage/Hero";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       {/* About Section */}
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
